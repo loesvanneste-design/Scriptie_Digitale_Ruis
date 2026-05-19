@@ -1,0 +1,59 @@
+<title>ERROR</title>
+<body
+  style="
+    font-family: &quot;Courier New&quot;, Courier, monospace;
+    background-color: red;
+  "
+  align="center"
+>
+  <h1 style="color: chartreuse">ERROR</h1>
+  <p style="color: chartreuse">Deze pagina bestaat nog niet</p>
+  <p></p>
+  <p></p>
+  <p style="color: chartreuse">
+    <a href="index.html" style="color: chartreuse"
+      >Klik hier om naar de introductie te gaan</a
+    >
+    of klik
+    <a href="eenconclusie.html" style="color: chartreuse"
+      >hier voor de conclusie</a
+    >
+  </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      model-viewer {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <model-viewer
+      src="images/8.glb"
+      alt="avatar"
+      shadow-intensity="1"
+      camera-controls
+    >
+    </model-viewer>
+
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"
+    ></script>
+  </body>
+</body>
